@@ -1,0 +1,9 @@
+[package]
+edition = "2018"
+name = "dot-dsl"
+version = "0.1.0"
+
+[dependencies]
+maplit = "1.0.1"
+attributes = { path = "attributes" }
+attributes-derive = { path = "attributes-derive" }
